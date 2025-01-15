@@ -2,12 +2,12 @@
   "name": "BaseSwap Default List",
   "timestamp": "2023-08-01T11:45:09Z",
   "version": {
-    "major": 4,
+    "major": 5,
     "minor": 0,
     "patch": 0
   },
   "tags": {},
-  "logoURI": "https://pancakeswap.finance/logo.png",
+  "logoURI": "",
   "keywords": ["baseswap", "default"],
   "tokens": [
     {
@@ -16,9 +16,10 @@
       "address": "0x78a087d713Be963Bf307b18F2Ff8122EF9A63ae9",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "https://baseswap.fi/images/tokens/0x78a087d713Be963Bf307b18F2Ff8122EF9A63ae9.png",
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a92cc10e30462a2ab4585138edf89872c5722ef5/images/bswap.png",
       "useDexscreener": true,
-      "dexscreenPairAddress": "0xE80B4F755417FB4baF4dbd23C029db3F62786523"
+      "dexscreenPairAddress": "0xE80B4F755417FB4baF4dbd23C029db3F62786523",
+      "isQuoteToken": true
     },
     {
       "name": "Base X",
@@ -26,9 +27,40 @@
       "address": "0xd5046B976188EB40f6DE40fB527F89c05b323385",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "https://baseswap.fi/images/tokens/0xd5046B976188EB40f6DE40fB527F89c05b323385.png",
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a92cc10e30462a2ab4585138edf89872c5722ef5/images/bsx.png",
       "useDexscreener": true,
       "dexscreenPairAddress": "0x7fea0384f38ef6ae79bb12295a9e10c464204f52"
+    },
+    {
+      "name": "BaseSwap Escrowed Token",
+      "symbol": "xBSX",
+      "address": "0xE4750593d1fC8E74b31549212899A72162f315Fa",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a92cc10e30462a2ab4585138edf89872c5722ef5/images/xbsx.png",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x7fea0384f38ef6ae79bb12295a9e10c464204f52",
+      "tradeable": false
+    },
+    {
+      "name": "Boge",
+      "symbol": "BOGE",
+      "address": "0x4e496c0256FB9D4CC7Ba2fdF931bC9CbB7731660",
+      "chainId": 8453,
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/BOGE.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0xBF5F6359745298eE65c52A32BE5fe9FafB1B434D"
+    },
+    {
+      "name": "Degen",
+      "symbol": "DEGEN",
+      "address": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/degen.png",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0xc9034c3E7F58003E6ae0C8438e7c8f4598d5ACAA"
     },
     {
       "name": "USD Base Coin",
@@ -36,7 +68,9 @@
       "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
       "chainId": 8453,
       "decimals": 6,
-      "logoURI": ""
+      "logoURI": "https://lcw.nyc3.cdn.digitaloceanspaces.com/production/currencies/64/usdbc.webp",
+      "isStableCoin": true,
+      "coingeckoTokenId": "bridged-usd-coin-base"
     },
     {
       "name": "DAI Stablecoin Token",
@@ -44,7 +78,9 @@
       "address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": ""
+      "logoURI": "https://assets.coingecko.com/coins/images/9956/standard/Badge_Dai.png?1696509996",
+      "isQuoteToken": true,
+      "isStableCoin": true
     },
     {
       "name": "Coinbase Wrapped Staked ETH",
@@ -52,7 +88,7 @@
       "address": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "",
+      "logoURI": "https://assets.coingecko.com/coins/images/27008/standard/cbeth.png?1709186989",
       "useDexscreener": true,
       "dexscreenPairAddress": "0x07CFA5Df24fB17486AF0CBf6C910F24253a674D3"
     },
@@ -62,9 +98,10 @@
       "address": "0x4A3A6Dd60A34bB2Aba60D73B4C88315E9CeB6A3D",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "https://baseswap.fi/images/tokens/0x4A3A6Dd60A34bB2Aba60D73B4C88315E9CeB6A3D.svg",
+      "logoURI": "https://assets.coingecko.com/coins/images/16786/standard/mimlogopng.png?1696516358",
       "useDexscreener": true,
-      "dexscreenPairAddress": "0xa2b120Cab75AEfDfAFdA6A14713349A3096EED79"
+      "dexscreenPairAddress": "0xa2b120Cab75AEfDfAFdA6A14713349A3096EED79",
+      "isStableCoin": true
     },
     {
       "name": "Yield Farming Index",
@@ -72,7 +109,7 @@
       "address": "0x8901cB2e82CC95c01e42206F8d1F417FE53e7Af0",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "",
+      "logoURI": "https://assets.coingecko.com/coins/images/29399/standard/l1v2_transparent.png?1696528349",
       "useDexscreener": true,
       "dexscreenPairAddress": "0x29b3a7869E3662D00aaBD89A8ee74B2F703a6a66"
     },
@@ -82,7 +119,7 @@
       "address": "0xFF0C532FDB8Cd566Ae169C1CB157ff2Bdc83E105",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "",
+      "logoURI": "https://assets.coingecko.com/coins/images/33022/standard/token.png?1700274697",
       "tax": true,
       "useDexscreener": true,
       "dexscreenPairAddress": "0x29b3a7869E3662D00aaBD89A8ee74B2F703a6a66"
@@ -93,7 +130,7 @@
       "address": "0xAC1Bd2486aAf3B5C0fc3Fd868558b082a531B2B4",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "",
+      "logoURI": "https://assets.coingecko.com/coins/images/31126/standard/2023-08-11_13.21.24.png?1697025145",
       "tax": true,
       "useDexscreener": true,
       "dexscreenPairAddress": "0xbFC74e1De81E81B0A807469502F6662Cc238795e"
@@ -104,7 +141,7 @@
       "address": "0xF6e932Ca12afa26665dC4dDE7e27be02A7c02e50",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "",
+      "logoURI": "https://assets.coingecko.com/coins/images/33083/standard/mochi200.png?1703024216",
       "tax": true,
       "useDexscreener": true,
       "dexscreenPairAddress": "0xbe09692245268B607c3029469d14bE06191A0566"
@@ -115,7 +152,7 @@
       "address": "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "",
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/7a0b25f64d57504139e6b425ba93a1973c89fbfa/images/SEAM.webp",
       "useDexscreener": true,
       "dexscreenPairAddress": "0x11E438B489e9e97e0252acd83AaA0a57AB611911"
     },
@@ -125,7 +162,7 @@
       "address": "0xA3d1a8DEB97B111454B294E2324EfAD13a9d8396",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "https://baseswap.fi/images/tokens/0xA3d1a8DEB97B111454B294E2324EfAD13a9d8396.png",
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/d4e1b42de15284343d047629699c05779de26b8e/images/OVN.svg",
       "useDexscreener": true,
       "dexscreenPairAddress": "0x4F993cA764E9a4Ae76d27eB488cfD252Ac909f8d"
     },
@@ -135,7 +172,7 @@
       "address": "0x7BC401227777F173Ff871993b198A8632741B9Bb",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "https://baseswap.fi/images/tokens/0x7BC401227777F173Ff871993b198A8632741B9Bb.svg",
+      "logoURI": "https://assets.coingecko.com/coins/images/33386/standard/200_200.png?1701673603",
       "useDexscreener": true,
       "dexscreenPairAddress": "0x40523f203E61D72043dbdF15a88B4b6199f817C0"
     },
@@ -145,7 +182,7 @@
       "address": "0x546D239032b24eCEEE0cb05c92FC39090846adc7",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "https://baseswap.fi/images/tokens/0x546D239032b24eCEEE0cb05c92FC39090846adc7.svg",
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/SEED.webp",
       "useDexscreener": true,
       "dexscreenPairAddress": "0xAA6a81A7df94DAb346e2d677225caD47220540C5"
     },
@@ -155,7 +192,7 @@
       "address": "0xCd239E01C36d3079c0dAeF355C61cFF591C40DB1",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "",
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/gmd.png",
       "useDexscreener": true,
       "dexscreenPairAddress": "0x93DcFBE3174e5EFE65687ba5331626f44DC5e4dD"
     },
@@ -165,18 +202,17 @@
       "address": "0xfB825E93822DD971EBDFdB2180A751958dBD5e16",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "",
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/gnd.png",
       "useDexscreener": true,
       "dexscreenPairAddress": "0x93DcFBE3174e5EFE65687ba5331626f44DC5e4dD"
     },
-
     {
       "name": "Axelar Wrapped Bitcoin",
       "symbol": "axlWBTC",
       "address": "0x1a35EE4640b0A3B87705B0A4B45D227Ba60Ca2ad",
       "chainId": 8453,
       "decimals": 8,
-      "logoURI": "https://baseswap.fi/images/tokens/0x1a35EE4640b0A3B87705B0A4B45D227Ba60Ca2ad.svg"
+      "logoURI": "https://assets.coingecko.com/coins/images/28173/standard/wbtc-satoshi_D_3x.png?1696986732"
     },
     {
       "name": "Threshold Bitcoin",
@@ -184,7 +220,7 @@
       "address": "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "https://baseswap.fi/images/tokens/0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b.svg"
+      "logoURI": "https://assets.coingecko.com/coins/images/11224/standard/0x18084fba666a33d37592fa2633fd49a74dd93a88.png?1696511155"
     },
     {
       "name": "BlazeBot",
@@ -192,7 +228,7 @@
       "address": "0x37DEfBC399e5737D53Dfb5533d9954572F5B19bf",
       "chainId": 8453,
       "decimals": 9,
-      "logoURI": "",
+      "logoURI": "https://assets.coingecko.com/coins/images/31279/standard/blazebot.jpeg?1696530102",
       "useDexscreener": true,
       "dexscreenPairAddress": "0xc54c5E7F1d46cBdA933c465D59fBecDf9aAf49Ad"
     },
@@ -202,7 +238,7 @@
       "address": "0x6B4712AE9797C199edd44F897cA09BC57628a1CF",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "",
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/unidx.png",
       "useDexscreener": true,
       "dexscreenPairAddress": "0x30dcc8444f8361d5ce119fc25e16af0b583e88fd"
     },
@@ -212,7 +248,7 @@
       "address": "0x0A074378461FB7ed3300eA638c6Cc38246db4434",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "https://baseswap.fi/images/tokens/0x0A074378461FB7ed3300eA638c6Cc38246db4434.svg"
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/eldorado.svg"
     },
     {
       "name": "SweepCoin",
@@ -220,7 +256,7 @@
       "address": "0xB88a5Ac00917a02d82c7cd6CEBd73E2852d43574",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "https://baseswap.fi/images/tokens/0xB88a5Ac00917a02d82c7cd6CEBd73E2852d43574.svg",
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/sweep.png",
       "useDexscreener": true,
       "dexscreenPairAddress": "0x2313f60D9E0f33d65A22006DD3f661c373AA2c66"
     },
@@ -230,9 +266,20 @@
       "address": "0xB79DD08EA68A908A97220C76d19A6aA9cBDE4376",
       "chainId": 8453,
       "decimals": 6,
-      "logoURI": "",
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/fd33e52868f183d366054eaaf427a343c41ee9aa/images/USD+.svg",
       "useDexscreener": true,
-      "dexscreenPairAddress": "0x696b4d181Eb58cD4B54a59d2Ce834184Cf7Ac31A"
+      "dexscreenPairAddress": "0x696b4d181Eb58cD4B54a59d2Ce834184Cf7Ac31A",
+      "isStableCoin": true
+    },
+    {
+      "name": "USDC+",
+      "symbol": "USDC+",
+      "address": "0x85483696Cc9970Ad9EdD786b2C5ef735F38D156f",
+      "chainId": 8453,
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/main/images/USDC+.webp",
+      "isStableCoin": true,
+      "coingeckoTokenId": "usdc-overnight-fi"
     },
     {
       "name": "DAI+",
@@ -240,8 +287,9 @@
       "address": "0x65a2508C429a6078a7BC2f7dF81aB575BD9D9275",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "",
-      "coingeckoTokenId": "overnight-dai"
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/dai%2B.png",
+      "coingeckoTokenId": "overnight-dai",
+      "isStableCoin": true
     },
     {
       "name": "Basin Protocol",
@@ -249,7 +297,7 @@
       "address": "0x4788de271F50EA6f5D5D2a5072B8D3C61d650326",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "",
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/basin.png",
       "useDexscreener": true,
       "dexscreenPairAddress": "0xc54c5E7F1d46cBdA933c465D59fBecDf9aAf49Ad"
     },
@@ -259,7 +307,8 @@
       "address": "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
       "chainId": 8453,
       "decimals": 6,
-      "logoURI": ""
+      "logoURI": "https://assets.coingecko.com/coins/images/26476/standard/uausdc_D_3x.png?1696525548",
+      "isStableCoin": true
     },
     {
       "name": "Wrapped Ether",
@@ -267,8 +316,9 @@
       "address": "0x4200000000000000000000000000000000000006",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "https://baseswap.fi/images/tokens/0x4200000000000000000000000000000000000006.png",
-      "coingeckoTokenId": "ethereum"
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/main/images/ETH.webp",
+      "coingeckoTokenId": "ethereum",
+      "isQuoteToken": true
     },
     {
       "name": "Arbidex",
@@ -276,7 +326,7 @@
       "address": "0x58Ed4FD0C3d930b674BA50a293f03ef6cD7dE7a3",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "https://baseswap.fi/images/tokens/0x58Ed4FD0C3d930b674BA50a293f03ef6cD7dE7a3.png",
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/arbidex.png",
       "useDexscreener": true,
       "dexscreenPairAddress": "0x7Ed8FD9D4bb2562b4F53D1A62C2CD30b698cB2e8"
     },
@@ -286,16 +336,17 @@
       "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
       "chainId": 8453,
       "decimals": 6,
-      "logoURI": "https://baseswap.fi/images/tokens/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913.png"
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/USDC.svg",
+      "isQuoteToken": true,
+      "isStableCoin": true
     },
-
     {
       "name": "MAI Stablecoin ",
       "symbol": "MAI",
       "address": "0xbf1aeA8670D2528E08334083616dD9C5F3B087aE",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "",
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/mai.png",
       "coingeckoTokenId": "mimatic"
     },
     {
@@ -304,32 +355,45 @@
       "address": "0x1A9132ee02d7E98e51b7389D2e7BB537184867Aa",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "",
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/bullrun.png",
       "useDexscreener": true,
       "dexscreenPairAddress": "0xeD89cC1fc96F749CceD4b94eA366A0d4c7C1826f"
     },
     {
-      "name": "Optimism",
-      "symbol": "OP",
-      "address": "0x4F192ED4449DEB47ed769b135d75aba33256aE43",
+      "name": "Frax Share",
+      "symbol": "FXS",
+      "address": "0x23432452b720c80553458496d4d9d7c5003280d0",
       "chainId": 8453,
-      "decimals": 18
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/86f05b4e5856203169dba64b26e6165e1be8dfa9/images/FXS.svg",
+      "coingeckoTokenId": "frax-share"
     },
     {
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
-      "address": "0x4200000000000000000000000000000000000006",
-      "chainId": 84531,
+      "name": "Staked Frax",
+      "symbol": "sFRAX",
+      "address": "0xe4796ccb6bb5de2290c417ac337f2b66ca2e770e",
+      "chainId": 8453,
       "decimals": 18,
-      "logoURI": "https://baseswap.fi/images/tokens/0x4200000000000000000000000000000000000006.png"
+      "logoURI": "https://assets.coingecko.com/coins/images/35383/standard/sfrax.png?1708445569",
+      "coingeckoTokenId": "staked-frax"
     },
     {
-      "name": "Chainlink Token",
-      "symbol": "LINK",
-      "address": "0x6D0F8D488B669aa9BA2D0f0b7B75a88bf5051CD3",
-      "chainId": 84531,
+      "name": "Staked Frax Ether",
+      "symbol": "sfrxETH",
+      "address": "0x1f55a02A049033E3419a8E2975cF3F572F4e6E9A",
+      "chainId": 8453,
       "decimals": 18,
-      "logoURI": ""
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/86f05b4e5856203169dba64b26e6165e1be8dfa9/images/sfrxETH.svg",
+      "coingeckoTokenId": "staked-frax-ether"
+    },
+    {
+      "name": "Aerodrome",
+      "symbol": "AERO",
+      "address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/main/images/aero.png?raw=true",
+      "coingeckoTokenId": "aerodrome-finance"
     },
     {
       "name": "USD Coin",
@@ -337,7 +401,577 @@
       "address": "0x7b4Adf64B0d60fF97D672E473420203D52562A84",
       "chainId": 84531,
       "decimals": 18,
-      "logoURI": ""
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/standard/usdc.png?1696506694",
+      "isStableCoin": true
+    },
+    {
+      "name": "The Void",
+      "symbol": "VOID",
+      "address": "0x21eceaf3bf88ef0797e3927d855ca5bb569a47fc",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/void.png",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0xB14e941D34d61ae251Ccc08AC15B8455AE9F60A5"
+    },
+    {
+      "name": "Cortana",
+      "symbol": "CORTANA",
+      "address": "0xccc7e9b7a1e2fa193683f23e23c495ecde3c4db8",
+      "chainId": 8453,
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/CORTANA.webp"
+    },
+    {
+      "name": "Bumpies Brawl Quest Token",
+      "symbol": "BBQ",
+      "address": "0xC8A256627f9a07c2C7c5706D400d0856Cb8AcA45",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/bumpies.png",
+      "tax": true
+    },
+    {
+      "name": "US Debt",
+      "symbol": "USDEBT",
+      "address": "0xA23dD9379F2E12D9ce76eC738b9f5e520d1D861c",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/usdebt.png",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x1467e6871afdEd1fFAD48919E593d9f130C59739"
+    },
+    {
+      "name": "Bald Wif Hat",
+      "symbol": "BIF",
+      "address": "0xc32a4e2b86AfE970D865D6581ccEDaaDEDb6f72f",
+      "chainId": 8453,
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/baldwifhat.png"
+    },
+    {
+      "name": "RAFL",
+      "symbol": "RAFL",
+      "address": "0xC702b80a1bEBac118cab22Ce6F2978ef59563b3F",
+      "chainId": 8453,
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/rafl.png"
+    },
+    {
+      "name": "Reach",
+      "symbol": "REACH",
+      "address": "0x4379c13143Eb91148fF9282CFb2f93536687A45b",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/reach.png"
+    },
+    {
+      "name": "AeroBud",
+      "symbol": "AEROBUD",
+      "address": "0xFad8CB754230dbFd249Db0E8ECCb5142DD675a0d",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/aerobud.jpeg"
+    },
+    {
+      "name": "Wuffi",
+      "symbol": "WUF",
+      "address": "0x4da78059D97f155E18B37765e2e042270f4E0fC4",
+      "chainId": 8453,
+      "decimals": 4,
+      "logoURI": "https://i.imgur.com/RZDxaaZ.png"
+    },
+    {
+      "name": "AIPEPE",
+      "symbol": "AIPEPE",
+      "address": "0x309EFC182e7044cD8DdD84712f60827660756C72",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/aipepe.png"
+    },
+    {
+      "name": "doginme",
+      "symbol": "doginme",
+      "address": "0x6921B130D297cc43754afba22e5EAc0FBf8Db75b",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/DOGINME.webp"
+    },
+    {
+      "name": "CIRCLE",
+      "symbol": "CIRCLE",
+      "address": "0x5baBfc2F240bc5De90Eb7e19D789412dB1dEc402",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/CIRCLE.webp"
+    },
+    {
+      "name": "Wrapped liquid staker Ether 2.0",
+      "symbol": "wstETH",
+      "address": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/main/images/wstETH.png?raw=true",
+      "coingeckoTokenId": "wrapped-steth"
+    },
+    {
+      "name": "The Doge NFT",
+      "symbol": "DOG",
+      "address": "0xAfb89a09D82FBDE58f18Ac6437B3fC81724e4dF6",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/thedognft.png"
+    },
+    {
+      "name": "Brett",
+      "symbol": "BRETT",
+      "address": "0x532f27101965dd16442E59d40670FaF5eBB142E4",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/BRETT.webp"
+    },
+    {
+      "name": "FINK",
+      "symbol": "FINK",
+      "address": "0x9Ee4Ed687d1Ae6Fc3a7a427adD25c6356876af6C",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/FINK.webp"
+    },
+    {
+      "name": "Altitude",
+      "symbol": "Altitude",
+      "address": "0x90678C02823b21772fa7e91B27EE70490257567B",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/a4c368189b68c7a2eacb5bdb8546d7e9ae18f617/images/altitude.png",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0xD57f6e7D7eC911bA8deFCf93d3682BB76959e950"
+    },
+    {
+      "name": "Dancing Wolf",
+      "symbol": "WOLF",
+      "address": "0x00ef65Dc955f05d8B9135afa6CB07B0b6061A933",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/WOLF.webp"
+    },
+    {
+      "name": "Crash",
+      "symbol": "CRASH",
+      "address": "0x4DD9077269Dd08899f2A9E73507125962b5BC87f",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/main/images/CRASH.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0xf012e803c8e73d185AC96d6C3F830893A1116E03"
+    },
+    {
+      "name": "Basenji",
+      "symbol": "BENJI",
+      "address": "0xBC45647eA894030a4E9801Ec03479739FA2485F0",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/main/images/BENJI.jpg",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x16905890A1D02b6F824387419319Bf4188B961b0"
+    },
+    {
+      "name": "Mister Miggles",
+      "symbol": "MIGGLES",
+      "address": "0xB1a03EdA10342529bBF8EB700a06C60441fEf25d",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/main/images/MIGGLES.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0xBCff421d06c165159f6b6895982C9Ea23B781E42"
+    },
+    {
+      "name": "Baby Brett",
+      "symbol": "BBRETT",
+      "address": "0xBE5614875952b1683cb0A2C20E6509be46d353a4",
+      "chainId": 8453,
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/main/images/BBRETT.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x05511784Abc6e20B3F206101bb48D222771Ebd85"
+    },
+    {
+      "name": "Flux YIN",
+      "symbol": "YIN",
+      "address": "0xecb36ff12cbe4710e9be2411de46e6c180a4807f",
+      "chainId": 8453,
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/YIN.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0xA05dB5EbEd9902A1A14a4787c7F60549D5336488"
+    },
+    {
+      "name": "GameStop",
+      "symbol": "GME",
+      "address": "0xbeB0fd48C2BA0F1AacaD2814605f09e08A96B94E",
+      "chainId": 8453,
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/main/images/GME.png",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x93efF1F9142F3A00B284876AD37E0cDD87C67477"
+    },
+    {
+      "name": "USDz",
+      "symbol": "USDz",
+      "address": "0x04D5ddf5f3a8939889F11E97f8c4BB48317F1938",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/main/images/USDz.png",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0xdE5Ff829fEF54d1BdEc957D9538A306f0EAD1368"
+    },
+    {
+      "name": "REHTE",
+      "symbol": "REHTE",
+      "address": "0x25e58984a39eb5aac0b66110bc3ca03fc0e5832d",
+      "chainId": 8453,
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/main/images/REHTE.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x91a12590527cf3C14664b6848C95fD2303b069cD"
+    },
+    {
+      "name": "Radiant",
+      "symbol": "RDNT",
+      "address": "0xd722E55C1d9D9fA0021A5215Cbb904b92B3dC5d4",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/main/images/radiant.svg",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x2092f4acbb18bb1649595df59b9cb601bba1ebb7"
+    },
+    {
+      "name": "EURC",
+      "symbol": "EURC",
+      "address": "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+      "chainId": 8453,
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/26045/standard/euro.png?1696525125",
+      "coingeckoTokenId": "euro-coin"
+    },
+    {
+      "name": "Coinbase Wrapped BTC",
+      "symbol": "cbBTC",
+      "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+      "chainId": 8453,
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/main/images/cbBTC.png",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x26F859DA14329022DbA1b87DD1998F18e3b222fe"
+    },
+    {
+      "name": "Tyler",
+      "symbol": "TYLER",
+      "address": "0x65e570b560027F493f2b1907e8e8e3B9546053bD",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/TYLER.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x53b7D9B4FE0Cbb03906B8158244C3EABcD821E95"
+    },
+    {
+      "name": "RUSSELL",
+      "symbol": "RUSSELL",
+      "address": "0x0C5142BC58f9A61AB8C3D2085DD2F4e550c5cE0B",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/RUSSELL.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0xf57ed21D0fC31b6bC0ef88Fd383f38CcaE35aD1d"
+    },
+    {
+      "name": "Luna by Virtuals",
+      "symbol": "LUNA",
+      "address": "0x55cD6469F597452B5A7536e2CD98fDE4c1247ee4",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/LUNA.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0xa8e64FB120CE8796594670BAE72279C8aA1e5359"
+    },
+    {
+      "name": "Virtual Protocol",
+      "symbol": "VIRTUAL",
+      "address": "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/VIRTUAL.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x8e0A7d4018fb2674346d5742055174f899Fe1826"
+    },
+    {
+      "name": "Jarvis Synthetic Euro",
+      "symbol": "jEUR",
+      "address": "0x4154550f4Db74Dc38d1FE98e1F3F28ed6daD627d",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/JEUR.webp",
+      "coingeckoTokenId": "jarvis-synthetic-euro"
+    },
+    {
+      "name": "Tether",
+      "symbol": "USDT",
+      "address": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+      "chainId": 8453,
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/325/small/Tether-logo.png?1598003707",
+      "isStableCoin": true,
+      "isQuoteToken": true,
+      "coingeckoTokenId": "tether"
+    },
+    {
+      "name": "Akashalife",
+      "symbol": "AK1111",
+      "address": "0x54b659832f59c24ceC0E4A2Cd193377F1BCEfc3c",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/50533/standard/Akasha-CoinIcon_%283%29.png?1728206155",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x7F85E0C38Ba63F7236117472Fa71faf655769C8A"
+    },
+    {
+      "name": "bitoSNEED.base",
+      "symbol": "bSNEED",
+      "address": "0x14A04d7Dec9299121f7842a4446f15d04C4111d5",
+      "chainId": 8453,
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/sneed.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0xb91F70524bD55bB23538A24A6137A2679e48f883"
+    },
+    {
+      "name": "Joystream",
+      "symbol": "JOY",
+      "address": "0x8761155c814c807cD3CcD15B256D69D3C10f198C",
+      "chainId": 8453,
+      "decimals": 10,
+      "logoURI": "https://raw.githubusercontent.com/Joystream/design/refs/heads/master/logo/joystream/app%20icon/PNG/app_icon-1.png",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x63F33CAcdb31B48C8aCB00E5A893505ADB2757C1"
+    },
+    {
+      "name": "PondHub",
+      "symbol": "PH",
+      "address": "0x6136494DB8A33707b2da36c2608994982EFA04C2",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/PONDHUB.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x096c104333Cb214e8c9C5eE49BEB36c62E9cf038"
+    },
+    {
+      "name": "Simmi",
+      "symbol": "SIMMI",
+      "address": "0x161e113B8E9BBAEfb846F73F31624F6f9607bd44",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/SIMMI.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0xe9a65059E895DD5D49806f6A71B63FEd0fFffD4B"
+    },
+    {
+      "name": "Chaos",
+      "symbol": "CHAOS",
+      "address": "0x20d704099B62aDa091028bcFc44445041eD16f09",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/chaostoken.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x01A1f5758c3a53057B6C819Ec7331e39c167794A"
+    },
+    {
+      "name": "Golden Bailey",
+      "symbol": "BAILEY",
+      "address": "0x3942caE8bb9FC8f24Fe627B30b6E7461E5662BA7",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/BAILEY.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0xf2f94D4EE41D8F974DD43Ec5d8edF9Cf73358842"
+    },
+    {
+      "name": "DONNIE",
+      "symbol": "DONNIE",
+      "address": "0x37d3D61a304695619433bc05EF841E889F69Debf",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/DONNIE.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0xcb2edC5e123689A3421aA033602209182A5d62C6"
+    },
+    {
+      "name": "Fuego",
+      "symbol": "FUEGO",
+      "address": "0x36912b5cf63E509f18E53ac98B3012Fa79e77bf5",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/FUEGO.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x2bbFb5A2496f405d4094D4b854DAeb9CE70D0029"
+    },
+    {
+      "name": "Clanker",
+      "symbol": "CLANKER",
+      "address": "0x1bc0c42215582d5A085795f4baDbaC3ff36d1Bcb",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/CLANKER.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0xC1a6FBeDAe68E1472DbB91FE29B51F7a0Bd44F97"
+    },
+    {
+      "name": "Ski Mask Dog",
+      "symbol": "SKI",
+      "address": "0x768BE13e1680b5ebE0024C42c896E3dB59ec0149",
+      "chainId": 8453,
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/SKI.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x6d6391B9bD02Eefa00FA711fB1Cb828A6471d283"
+    },
+    {
+      "name": "Music",
+      "symbol": "MUSIC",
+      "address": "0xc655C331d1Aa7f96c252F1f40CE13D80eAc53504",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/MUSIC.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0xCeF84D17513edE0Ab951F7BE9829E638a20BfbA4"
+    },
+    {
+      "name": "WindogeXP",
+      "symbol": "XP",
+      "address": "0x5fA96DdfBD4633FEb33212c934b8a8c1D061ab8f",
+      "chainId": 8453,
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/WINDOGE.webp"
+    },
+    {
+      "name": "AIXBT",
+      "symbol": "AIXBT",
+      "address": "0x4F9Fd6Be4a90f2620860d680c0d4d5Fb53d1A825",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/AIX.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x5fc02b9aa76057e9970e814e149a194183d0a5f3"
+    },
+    {
+      "name": "Game by Virtuals",
+      "symbol": "GAME",
+      "address": "0x1C4CcA7C5DB003824208aDDA61Bd749e55F463a3",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/GAME.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x2A36148a416cBa81699B555120Bd65f4682BDFD2"
+    },
+    {
+      "name": "Odos",
+      "symbol": "ODOS",
+      "address": "0xca73ed1815e5915489570014e024b7EbE65dE679",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": " https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/ODOS.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0xb7068556049df8fb3ae77ccbb9611fe0e85b2641"
+    },
+    {
+      "name": "Rob Banks",
+      "symbol": "BANKS",
+      "address": "0x14b2f229097Df3c92B43eA871860E3FAe08D7f06",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/BANKS.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x286f3Add5dD41ba6E208F9f9a68533107FD0D0fA"
+    },
+    {
+      "name": "Javlis by Virtuals",
+      "symbol": "JAVLIS",
+      "address": "0x440D06b2aC83Ff743d9e149Be582A4b2b2c6adEc",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/JAVLIS.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x02F9a658c739E5BE1D38eFFF9D6dD2D80d765384"
+    },
+    {
+      "name": "aixCB by Virtuals",
+      "symbol": "AIXCB",
+      "address": "0x76C71F1703Fbf19FFdcF3051E1e684Cb9934510f",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/AIXCB.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x19C3c7EEfb070EE00ddE367A9768De1DF52cbE5d"
+    },
+    {
+      "name": "DR3AM Fund",
+      "symbol": "FREAM",
+      "address": "0x0521AaA7C96E25afeE79FDd4f1Bb48F008aE4eac",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/FRDREAM.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x0ebcEE3165654d9c52dd6D438423bE76F2Df1b0E"
+    },
+    {
+      "name": "Seraph by Virtuals",
+      "symbol": "SERAPH",
+      "address": "0x4f81837C2f4A189A0B69370027cc2627d93785B4",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/SERAPH.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0xd549f81a8Cb75B1783edF0ac6C3fc4b26272BfB4"
+    },
+    {
+      "name": "TAOCat by Virtuals",
+      "symbol": "TAOCAT",
+      "address": "0x7A5f5CcD46EBd7aC30615836D988ca3BD57412b3",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/TAOCAT.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x4FC190E4DC19c8fcA5e05534d664C0aC3Fa1AaC5"
+    },
+    {
+      "name": "Prefrontal Cortex Convo Agent by Virtuals",
+      "symbol": "CONVO",
+      "address": "0xab964f7b7b6391bd6c4e8512eF00d01f255d9c0D",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/CONVO.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x3268d7eFA254E648Ffe968664E47Ca226E27CD04"
+    },
+    {
+      "name": "Candle",
+      "symbol": "CNDL",
+      "address": "0xF184fCCE25573df753E52914E152eAE5441B6E1B",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/CANDLE.png",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0xC17E55B1aE9B31891ba5e70d59325555D37dB78C"
+    },
+    {
+      "name": "Symmio",
+      "symbol": "SYMM",
+      "address": "0x800822d361335b4d5F352Dac293cA4128b5B605f",
+      "chainId": 8453,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/SYMM.webp",
+      "useDexscreener": true,
+      "dexscreenPairAddress": "0x3eB2a8015dE1419a5089dAb37b0056F0fc24f821"
     }
   ]
 }

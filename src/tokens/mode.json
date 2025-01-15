@@ -5,9 +5,21 @@
     "address": "0xFDa619b6d20975be80A10332cD39b9a4b0FAa8BB",
     "chainId": 34443,
     "decimals": 18,
-    "logoURI": "",
+    "logoURI": "https://assets.coingecko.com/coins/images/36014/standard/SMDPNG.png?1710326417",
     "useDexscreener": true,
-    "dexscreenPairAddress": "0x7F3315d773350883EbB4F643AB5Ec0d32d162C8A"
+    "dexscreenPairAddress": "0x7F3315d773350883EbB4F643AB5Ec0d32d162C8A",
+    "isQuoteToken": true
+  },
+  {
+    "name": "SwapMode Escrowed Token",
+    "symbol": "xSMD",
+    "address": "0xFb68BBfaEF679C1E653b5cE271a0A383c0df6B45",
+    "chainId": 34443,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/4c3017f1cba57e728de5f65bf7b5a7fc5a2b0c7f/images/xSMD.png",
+    "useDexscreener": true,
+    "dexscreenPairAddress": "0x7F3315d773350883EbB4F643AB5Ec0d32d162C8A",
+    "tradeable": false
   },
   {
     "name": "USDC",
@@ -15,7 +27,9 @@
     "address": "0xd988097fb8612cc24eeC14542bC03424c656005f",
     "chainId": 34443,
     "decimals": 6,
-    "logoURI": ""
+    "logoURI": "https://assets.coingecko.com/coins/images/6319/standard/usdc.png?1696506694",
+    "isQuoteToken": true,
+    "isStableCoin": true
   },
   {
     "name": "Wrapped Ether",
@@ -23,16 +37,9 @@
     "address": "0x4200000000000000000000000000000000000006",
     "chainId": 34443,
     "decimals": 18,
-    "logoURI": "",
-    "coingeckoTokenId": "ethereum"
-  },
-  {
-    "name": "USDT",
-    "symbol": "USDT",
-    "address": "0xf0F161fDA2712DB8b566946122a5af183995e2eD",
-    "chainId": 34443,
-    "decimals": 6,
-    "logoURI": ""
+    "logoURI": "https://coinwatch.finance/images/coin/wrapped-ether.png",
+    "coingeckoTokenId": "ethereum",
+    "isQuoteToken": true
   },
   {
     "name": "Wrapped Bitcoin",
@@ -40,7 +47,119 @@
     "address": "0xcDd475325D6F564d27247D1DddBb0DAc6fA0a5CF",
     "chainId": 34443,
     "decimals": 8,
-    "logoURI": ""
+    "logoURI": "https://assets.coingecko.com/coins/images/1/small/bitcoin.png?1547033579",
+    "isQuoteToken": true
+  },
+  {
+    "name": "Renzo Restaked ETH",
+    "symbol": "ezETH",
+    "address": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+    "chainId": 34443,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/34753/standard/eth_renzo_logo_%281%29.png?1705956747",
+    "useDexscreener": true,
+    "dexscreenPairAddress": "0x812D54D483bF049980Af7ceB57DBf77Fa186d063"
+  },
+  {
+    "name": "Linda",
+    "symbol": "LINDA",
+    "address": "0xFEBBb7f02Aec3F970591D7BeE937EfB3B07A5683",
+    "chainId": 34443,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/b0d3a737df3477b2a7c0ee942f1c04cf7acbe51b/images/LINDA.png",
+    "useDexscreener": true,
+    "dexscreenPairAddress": "0x81845f2c5c1c7B757692d175930FA8E5d7B6cF60"
+  },
+  {
+    "name": "Molten",
+    "symbol": "MOLTEN",
+    "address": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1",
+    "chainId": 34443,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/MOLTEN.webp",
+    "useDexscreener": true,
+    "dexscreenPairAddress": "0x08262cDCb559dC08d34C95D5CA989BD57f721B20"
+  },
+  {
+    "name": "Merlin BTC",
+    "symbol": "MBTC",
+    "address": "0x59889b7021243dB5B1e065385F918316cD90D46c",
+    "chainId": 34443,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/06ac53dbe8bcf17e51e553084ae015bef8e9f3ee/images/mbtc.png",
+    "useDexscreener": false,
+    "coingeckoTokenId": "merlin-chain-bridged-wrapped-btc-merlin"
+  },
+  {
+    "name": "Pirex Ether OFT",
+    "symbol": "PXETH",
+    "address": "0x9E0d7D79735e1c63333128149c7b616a0dC0bBDb",
+    "chainId": 34443,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/54bb46ef3e5ed79255aca974d966e81729d31b4a/images/pxETH.png",
+    "useDexscreener": false,
+    "dexscreenPairAddress": ""
+  },
+  {
+    "name": "Ankr Staked ETH",
+    "symbol": "ankrETH",
+    "address": "0x12D8CE035c5DE3Ce39B1fDD4C1d5a745EAbA3b8C",
+    "chainId": 34443,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/54bb46ef3e5ed79255aca974d966e81729d31b4a/images/ankrETH.png",
+    "useDexscreener": true,
+    "dexscreenPairAddress": "0xA547801aDc0925DD5317f475eDEad1736F7F4fBf"
+  },
+  {
+    "name": "Kelp DAO",
+    "symbol": "wrsETH",
+    "address": "0xe7903B1F75C534Dd8159b313d92cDCfbC62cB3Cd",
+    "chainId": 34443,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/54bb46ef3e5ed79255aca974d966e81729d31b4a/images/rsETH.png?raw=true",
+    "useDexscreener": true,
+    "dexscreenPairAddress": "0x7794A80b2D36F35239bD2Fcc77ca0E2d2E47D9A3"
+  },
+  {
+    "name": "MoChad",
+    "symbol": "MOCHAD",
+    "address": "0xcDa802a5BFFaa02b842651266969A5Bba0c66D3e",
+    "chainId": 34443,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/831bde68bab2af91599dc684d7049cebb876d417/images/MOCHAD.png",
+    "useDexscreener": true,
+    "dexscreenPairAddress": "0xf927Bf4A4170f29c429Ad3b9D953E57DF3691ec9"
+  },
+  {
+    "name": "BeastMode",
+    "symbol": "BEAST",
+    "address": "0x6a660e56FA3b630A786CC4Ae98859f8532D03dE9",
+    "chainId": 34443,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/37160f058c65c346002368bf8eb8f6ed4aa5be96/images/BEAST.png",
+    "useDexscreener": true,
+    "dexscreenPairAddress": "0x35320a94F0a6Eb95815E195B1C0AcfCd0bB34C7f"
+  },
+
+  {
+    "name": "Tether",
+    "symbol": "USDT",
+    "address": "0xf0F161fDA2712DB8b566946122a5af183995e2eD",
+    "chainId": 34443,
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/325/small/Tether-logo.png?1598003707",
+    "isStableCoin": true,
+    "isQuoteToken": true
+  },
+  {
+    "name": "Modie",
+    "symbol": "MODI",
+    "address": "0x598f9Cb99BaFC8346b4c153A61b3A27C8f13B10F",
+    "chainId": 34443,
+    "decimals": 18,
+    "useDexscreener": true,
+    "dexscreenPairAddress": "0xE51E94DabA685a802f46CA305e568Fc8A5914b24",
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/c8428d2d734824d3543861b7c0c0457ca99047e5/images/MODI.png"
   },
   {
     "name": "Dai Stablecoin",
@@ -48,14 +167,113 @@
     "address": "0xE7798f023fC62146e8Aa1b36Da45fb70855a77Ea",
     "chainId": 34443,
     "decimals": 18,
-    "logoURI": ""
+    "logoURI": "https://assets.coingecko.com/coins/images/9956/standard/Badge_Dai.png?1696509996",
+    "isQuoteToken": true,
+    "isStableCoin": true
   },
   {
-    "name": "Chainlink Token",
-    "symbol": "LINK",
-    "address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+    "name": "Inception LRT restaked ETH",
+    "symbol": "inETH",
+    "address": "0x5A7a183B6B44Dc4EC2E3d2eF43F98C5152b1d76d",
     "chainId": 34443,
     "decimals": 18,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/898b3eee2c1a2b4bfa0c504992d0314388186a1f/images/inETH.png",
+    "useDexscreener": true, 
+    "dexscreenPairAddress": "0xBEd8709745125B87F2F9cB74b1bF43188E60AA05"
+  },
+  {
+    "name": "Snakestone Ether",
+    "symbol": "STONE",
+    "address": "0x80137510979822322193FC997d400D5A6C747bf7",
+    "chainId": 34443,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/5933d108f9b9ddbb0f605576651829a9b3affeca/images/snakestone.png",
+    "coingeckoTokenId": "stakestone-ether"
+  },
+  {
+    "name": "Wrapped eETH",
+    "symbol": "weETH",
+    "address": "0x028227c4dd1e5419d11Bb6fa6e661920c519D4F5",
+    "chainId": 34443,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/057d466479e818ca2ecec1f1ca270901647fcbfb/images/weETH.png",
+    "coingeckoTokenId": "wrapped-eeth"
+  },
+  {
+    "name": "Wrapped eETH",
+    "symbol": "weETH.Mode",
+    "address": "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A",
+    "chainId": 34443,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/057d466479e818ca2ecec1f1ca270901647fcbfb/images/weETH.png",
+    "coingeckoTokenId": "wrapped-eeth"
+  },
+  {
+    "name": "Mode",
+    "symbol": "MODE",
+    "address": "0xDfc7C877a950e49D2610114102175A06C2e3167a",
+    "chainId": 34443,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/029ef40a278a91125a411ce85e486c73d9169c63/images/MODE.png",
+    "useDexscreener": true,
+    "dexscreenPairAddress": "0xd724540F997337100B0Da0CE5A8Df39f15Fbb7b3"
+  },
+  {
+    "name": "Ionic USD Coin",
+    "symbol": "ionUSDC",
+    "address": "0x2BE717340023C9e14C1Bb12cb3ecBcfd3c3fB038",
+    "chainId": 34443,
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/IONUSDC.webp",
+    "useDexscreener": true,
+    "dexscreenPairAddress": "0x1E3CfebFf9c68b3d2FF8fC880a22655554BeCe55"
+  },
+  {
+    "name": "Ionic Tether USD",
+    "symbol": "ionUSDT",
+    "address": "0x94812f2eea03a49869f95e1b5868c6f3206ee3d3",
+    "chainId": 34443,
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/19a6ce38d1f01cf03dce306daf38d674a2d865d4/images/ionUSDT.png",
+    "useDexscreener": true,
+    "dexscreenPairAddress": "0x49ccf1f7c139136d9cdbbc684751187b34271e82"
+  },
+  {
+    "name": "InceptionLRT restaked ETH",
+    "symbol": "inETH",
+    "address": "0x5A7a183B6B44Dc4EC2E3d2eF43F98C5152b1d76d",
+    "chainId": 34443,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/main/images/inETH.png?raw=true",
+    "useDexscreener": true, 
+    "dexscreenPairAddress": "0x8c003a24Fe5430f3EF87A12EE2BF6566F7d5AE46"
+  },
+  {
+    "name": "USDA",
+    "symbol": "USDA",
+    "address": "0x0000206329b97DB379d5E1Bf586BbDB969C63274",
+    "chainId": 34443,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/USDA.webp",
+    "coingeckoTokenId": "angle-usd"
+  },
+  {
+    "name": "Ironclad USD",
+    "symbol": "iUSD",
+    "address": "0xA70266C8F8Cf33647dcFEE763961aFf418D9E1E4",
+    "chainId": 34443,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/IUSD.png",
+    "coingeckoTokenId": "ironclad-usd"
+  },
+  
+  {
+    "name": "EURA",
+    "symbol": "EURA",
+    "address": "0x00001063a5d3A9d5f1B03e848fa788aae1d98C5c",
+    "chainId": 34443,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/baseswapfi/default-token-list/refs/heads/main/images/EURA.webp",
+    "coingeckoTokenId": "ageur"
   }
 ]
